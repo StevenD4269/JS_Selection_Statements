@@ -4,6 +4,7 @@ console.log(
 );
 // exercise 1
 let favNum = 42;
+//  let favNum = Math.floor(Math.random() *100); for a random number
 inputNum = window.prompt("Input a number");
 let userNumber = parseInt(inputNum);
 if (userNumber < favNum) {
@@ -46,7 +47,7 @@ switch (birthMonth) {
     break;
   // the final else statement is basically "default"
   default:
-    console.log("Invalid input. Please enter a valid month name.");
+    console.log("Please enter a valid month name.");
     break;
 }
 // If they answer a correct case it will show this
@@ -62,9 +63,9 @@ let sizeId = "L";
 let type = "";
 let color = "";
 let size = "";
-type = type.toLowerCase;
-color = color.toLowerCase;
-size = size.toLowerCase;
+type = type.toLowerCase();
+color = color.toLowerCase();
+size = size.toLowerCase();
 
 switch (typeId) {
   case "01":
